@@ -1,5 +1,5 @@
 name: pandoc-qq
-version: '0.0.0'
+version: '0.1.0'
 author: Scott Murphy <scottmurphy09@gmail.com>
 maintainer: Scott Murphy <scottmurphy09@gmail.com>
 license: BSD3
@@ -10,6 +10,10 @@ extra-source-files:
 dependencies:
   - base >=4 && <5
   - lens
+  - pandoc
+  - pandoc-types
+  - template-haskell
+  - data-default
 library:
   source-dirs: src
   ghc-options: -Wall

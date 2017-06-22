@@ -1,21 +1,16 @@
 # pandoc-qq
 
-TODO: Write description here
+I thought it would be nice to be able to quasi quote and use a bunch of things from pandoc
 
-## Installation
-
-TODO: Write installation instructions here
 
 ## Usage
 
-TODO: Write usage instructions here
+``` haskell
+someValue = [pandoc-org-mode|
+* This stuff will be saved as 
+** Pandoc Documents
+** Not org-mode
+** But still nice!
 
-## How to run tests
-
+|]
 ```
-cabal configure --enable-tests && cabal build && cabal test
-```
-
-## Contributing
-
-TODO: Write contribution instructions here
